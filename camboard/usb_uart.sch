@@ -1,0 +1,294 @@
+EESchema Schematic File Version 2
+LIBS:stm32-v2
+LIBS:components
+LIBS:connectors
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:usb_microb_2040002-1
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FT230XS U?
+U 1 1 59D2EDD5
+P 5325 3750
+F 0 "U?" H 4775 4350 50  0000 L CNN
+F 1 "FT230XS" H 5625 4350 50  0000 L CNN
+F 2 "" H 5325 3750 50  0001 C CNN
+F 3 "" H 5325 3750 50  0001 C CNN
+	1    5325 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59D2EDDC
+P 5325 4450
+F 0 "#PWR?" H 5325 4200 50  0001 C CNN
+F 1 "GND" H 5325 4300 50  0000 C CNN
+F 2 "" H 5325 4450 50  0001 C CNN
+F 3 "" H 5325 4450 50  0001 C CNN
+	1    5325 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59D2EDE2
+P 4450 4000
+F 0 "#PWR?" H 4450 3850 50  0001 C CNN
+F 1 "+3V3" H 4450 4140 50  0000 C CNN
+F 2 "" H 4450 4000 50  0001 C CNN
+F 3 "" H 4450 4000 50  0001 C CNN
+	1    4450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D2EDE8
+P 4475 3450
+F 0 "R?" V 4555 3450 50  0000 C CNN
+F 1 "30.1" V 4475 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4405 3450 50  0001 C CNN
+F 3 "" H 4475 3450 50  0001 C CNN
+	1    4475 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59D2EDEF
+P 4475 3350
+F 0 "R?" V 4555 3350 50  0000 C CNN
+F 1 "30.1" V 4475 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4405 3350 50  0001 C CNN
+F 3 "" H 4475 3350 50  0001 C CNN
+	1    4475 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 59D2EDF6
+P 4550 4300
+F 0 "C?" H 4575 4400 50  0000 L CNN
+F 1 "100nF" H 4575 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4588 4150 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D2EDFD
+P 7350 3625
+F 0 "D?" H 7350 3725 50  0000 C CNN
+F 1 "LED-G" H 7350 3525 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 7350 3625 50  0001 C CNN
+F 3 "" H 7350 3625 50  0001 C CNN
+	1    7350 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 59D2EE04
+P 7375 4050
+F 0 "D?" H 7375 4150 50  0000 C CNN
+F 1 "LED-G" H 7375 3950 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 7375 4050 50  0001 C CNN
+F 3 "" H 7375 4050 50  0001 C CNN
+	1    7375 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59D2EE0B
+P 7800 3625
+F 0 "#PWR?" H 7800 3475 50  0001 C CNN
+F 1 "+3V3" H 7800 3765 50  0000 C CNN
+F 2 "" H 7800 3625 50  0001 C CNN
+F 3 "" H 7800 3625 50  0001 C CNN
+	1    7800 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59D2EE11
+P 7825 4050
+F 0 "#PWR?" H 7825 3900 50  0001 C CNN
+F 1 "+3V3" H 7825 4190 50  0000 C CNN
+F 2 "" H 7825 4050 50  0001 C CNN
+F 3 "" H 7825 4050 50  0001 C CNN
+	1    7825 4050
+	0    1    1    0   
+$EndComp
+NoConn ~ 4625 3850
+NoConn ~ 6025 3850
+NoConn ~ 6025 4150
+Text Notes 7250 4300 0    60   ~ 0
+RX indicator
+Text Notes 7150 3500 0    60   ~ 0
+TX indicator
+Wire Wire Line
+	4550 4450 5225 4450
+Wire Wire Line
+	5225 4450 5325 4450
+Wire Wire Line
+	5325 4450 5425 4450
+Connection ~ 5325 4450
+Wire Wire Line
+	4550 4000 4450 4000
+Wire Wire Line
+	4550 3950 4625 3950
+Connection ~ 4550 3950
+Wire Wire Line
+	4550 4050 4625 4050
+Connection ~ 4550 4000
+Wire Wire Line
+	4550 4150 4625 4150
+Connection ~ 4550 4050
+Connection ~ 5225 4450
+Wire Wire Line
+	4550 3950 4550 4000
+Wire Wire Line
+	4550 4000 4550 4050
+Wire Wire Line
+	4550 4050 4550 4150
+$Comp
+L USB_microB_2040002-1 J?
+U 1 1 59D2EE29
+P 3225 3700
+F 0 "J?" H 2775 4350 60  0000 L CNN
+F 1 "USB_microB_2040002-1" H 2775 4250 60  0000 L CNN
+F 2 "USB_micro_b:USB_microB_2040002-1_alt" H 3575 3850 50  0001 C CNN
+F 3 "" H 3575 3850 50  0001 C CNN
+	1    3225 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59D2EE36
+P 3875 4100
+F 0 "#PWR?" H 3875 3850 50  0001 C CNN
+F 1 "GND" H 3875 3950 50  0000 C CNN
+F 2 "" H 3875 4100 50  0001 C CNN
+F 3 "" H 3875 4100 50  0001 C CNN
+	1    3875 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 3450 4325 3700
+Wire Wire Line
+	4325 3700 3875 3700
+Wire Wire Line
+	4325 3350 4250 3350
+Wire Wire Line
+	4250 3350 4250 3500
+Wire Wire Line
+	4250 3500 3875 3500
+Wire Wire Line
+	6025 3350 6400 3350
+$Comp
+L GS2 J?
+U 1 1 59D2EE48
+P 4075 3900
+F 0 "J?" H 4000 3900 50  0000 C CNN
+F 1 "GS2" H 4175 3751 50  0000 C CNN
+F 2 "Connectors:GS2" V 4149 3900 50  0001 C CNN
+F 3 "" H 4075 3900 50  0001 C CNN
+	1    4075 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59D2EE4F
+P 4275 3900
+F 0 "#PWR?" H 4275 3650 50  0001 C CNN
+F 1 "GND" H 4275 3750 50  0000 C CNN
+F 2 "" H 4275 3900 50  0001 C CNN
+F 3 "" H 4275 3900 50  0001 C CNN
+	1    4275 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59D2EE55
+P 7675 4050
+F 0 "R?" V 7755 4050 50  0000 C CNN
+F 1 "499" V 7675 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7605 4050 50  0001 C CNN
+F 3 "" H 7675 4050 50  0001 C CNN
+	1    7675 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59D2EE5C
+P 7650 3625
+F 0 "R?" V 7730 3625 50  0000 C CNN
+F 1 "499" V 7650 3625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7580 3625 50  0001 C CNN
+F 3 "" H 7650 3625 50  0001 C CNN
+	1    7650 3625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6025 3950 6900 3950
+Wire Wire Line
+	6900 3950 6900 3625
+Wire Wire Line
+	6900 3625 7200 3625
+Wire Wire Line
+	6025 4050 7225 4050
+Wire Wire Line
+	6025 3450 6400 3450
+NoConn ~ 6025 3550
+NoConn ~ 6025 3650
+Text HLabel 6400 3450 2    60   Input ~ 0
+TX
+Text HLabel 6400 3350 2    60   Input ~ 0
+RX
+Text HLabel 4025 2975 1    60   Input ~ 0
+5V
+Wire Wire Line
+	3875 3300 4025 3300
+Wire Wire Line
+	4025 3300 4025 2975
+$EndSCHEMATC

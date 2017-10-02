@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name USB_micro_b)(type KiCad)(uri "$(KIPRJMOD)/USB_micro_b")(options "")(descr ""))
+)
