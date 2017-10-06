@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:ft230xs
 LIBS:usb_microb
+LIBS:micro_sd_card
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -38,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -60,10 +61,10 @@ F 3 "" H 5200 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L GND #PWR010
 U 1 1 59D94A5E
 P 4600 3350
-F 0 "#PWR09" H 4600 3100 50  0001 C CNN
+F 0 "#PWR010" H 4600 3100 50  0001 C CNN
 F 1 "GND" H 4600 3200 50  0000 C CNN
 F 2 "" H 4600 3350 50  0001 C CNN
 F 3 "" H 4600 3350 50  0001 C CNN
