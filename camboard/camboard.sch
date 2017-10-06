@@ -1139,7 +1139,7 @@ $Sheet
 S 9100 2550 550  200 
 U 59D947FC
 F0 "red" 60
-F1 "3V3_led.sch" 60
+F1 "leds/3V3_led_red.sch" 60
 F2 "3V3" I L 9100 2650 60 
 $EndSheet
 $Comp
