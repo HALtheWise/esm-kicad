@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:ft230xs
+LIBS:usb_microb
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,11 +33,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:project-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -57,10 +60,10 @@ F 3 "" H 5200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR07
 U 1 1 59D83C5F
 P 5200 3850
-F 0 "#PWR08" H 5200 3600 50  0001 C CNN
+F 0 "#PWR07" H 5200 3600 50  0001 C CNN
 F 1 "GND" H 5200 3700 50  0000 C CNN
 F 2 "" H 5200 3850 50  0001 C CNN
 F 3 "" H 5200 3850 50  0001 C CNN
